@@ -1,0 +1,7 @@
+com.santander.priceFactor: 1.00
+spring.cloud.stream.bindings:
+  sink_price:
+    consumer:
+      autoBindDlq: true
+      republishToDlq: true
+      transacted: true
